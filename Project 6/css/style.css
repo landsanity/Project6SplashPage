@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(http://www.toyota-4runner.org/attachments/3rd-gen-t4rs/188157d1453444870-3rd-gen-rear-ladder-4runner.jpg) no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover;
+	filter: grayscale(90%);
+	
+	
+}
+
+
+
+.intro .inner {
+	display: table-cell;
+	
+	width: 100%;
+	max-width: none;
+}
+
+.fly-in-text {
+	list-style: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	
+}
+
+.fly-in-text li:last-child {
+	margin-right: 0;
+}
+
+.fly-in-text.hidden li {
+	opacity: 0;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40%;
+}
+
+
+
+.fly-in-text li {
+	color: red;
+	display: inline-block;
+	margin-right: 50px;
+	font-family: "Raleway", sans-serif;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 150%;
+	transition: all 2.8s ease;
+	opacity: 1;
+	
+	
+}
+
+.fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px);}
+.fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px);}
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(-200px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(5) { transform: translateX(10px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(6) { transform: translateX(-300px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(7) { transform: translateX(20px) translateY(-20px);}
+.fly-in-text.hidden li:nth-child(8) { transform: translateX(-45px) translateY(-120px);}
+.fly-in-text.hidden li:nth-child(9) { transform: translateX(30px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(10) { transform: translateX(-125px) translateY(200px);} /** mississippi **/
+.fly-in-text.hidden li:nth-child(11) { transform: translateX(100px) translateY(75px);}
+.fly-in-text.hidden li:nth-child(12) { transform: translateX(90px) translateY(-150px);}
+.fly-in-text.hidden li:nth-child(13) { transform: translateX(-20px) translateY(130px);}
+.fly-in-text.hidden li:nth-child(14) { transform: translateX(50px) translateY(-100px);} /** loop **/
+.fly-in-text.hidden li:nth-child(15) { transform: translateX(-60px) translateY(20px);}
+.fly-in-text.hidden li:nth-child(16) { transform: translateX(-200px) translateY(30px);}
+.fly-in-text.hidden li:nth-child(17) { transform: translateX(-160px) translateY(-160px);}
+.fly-in-text.hidden li:nth-child(18) { transform: translateX(125px) translateY(40px);}
+.fly-in-text.hidden li:nth-child(19) { transform: translateX(10px) translateY(-180px);}
+.fly-in-text.hidden li:nth-child(21) { transform: translateX(-10px) translateY(-180px);}
+.fly-in-text.hidden li:nth-child(22) { transform: translateX(-20px) translateY(-90px);}
+.fly-in-text.hidden li:nth-child(23) { transform: translateX(20px) translateY(130px);} /** overland **/
+.fly-in-text.hidden li:nth-child(24) { transform: translateX(50px) translateY(-130px);} 
+.fly-in-text.hidden li:nth-child(25) { transform: translateX(-80px) translateY(-80px);}
+.fly-in-text.hidden li:nth-child(26) { transform: translateX(140px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(27) { transform: translateX(-170px) translateY(-20px);}
+.fly-in-text.hidden li:nth-child(28) { transform: translateX(-150px) translateY(75px);} /** rally **/
+.fly-in-text.hidden li:nth-child(29) { transform: translateX(-125px) translateY(200px);}
+
+
+.btn {
+	border-radius: 9px;
+	font-family: "Oswald", sans-serif;
+	color: black;
+	font-size: 150%;
+	padding: 10px 20px;
+	border: solid black 3px;
+	background-color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+	
+	
+	
+	
+	
+}
+
+.btn:hover {
+	color: grey;
+	border: solid grey 3px;
+}
+
+@media screen and (max-width: 768px) {
+	.content h1 {
+		font-size: 150%;
+	}
+	.btn {
+		font-size: 75%;
+		padding: 7px 15px;
+	}
+}

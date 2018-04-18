@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(http://www.toyota-4runner.org/attachments/3rd-gen-t4rs/188157d1453444870-3rd-gen-rear-ladder-4runner.jpg) no-repeat 50% 50%;
+}
+.text{
+    text-align: center;
+    color: #e7e7e7;
+    font-family: "Raleway", sans-serif;
+    margin-top: 70px;
+    font-size: 250%;
+    font-weight: 400;
+    text-shadow:2px 1px 2px #eee;
+}
+.fly-in-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    list-style: none;
+    transform: translateX(-50%) translateY(-50%);
+}
+.fly-in-text li {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: sans-serif,helvetica;
+    font-weight: 300;
+    font-size: 38px;
+    color: #e7e7e7;
+    opacity: 1;
+    transition: all 2.8s cubic-bezier(0.6, -.005, 0.32, 1.75);
+}
+.fly-in-text.hidden li {
+    opacity: 1;
+}
+.fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px);}
+.fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px);}
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(-200px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(5) { transform: translateX(10px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(6) { transform: translateX(-300px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(7) { transform: translateX(20px) translateY(-20px);}
+.fly-in-text.hidden li:nth-child(8) { transform: translateX(-45px) translateY(-120px);}
+.fly-in-text.hidden li:nth-child(9) { transform: translateX(30px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(10) { transform: translateX(-75px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(10) { transform: translateX(-125px) translateY(200px);} /** mississippi **/
+.fly-in-text.hidden li:nth-child(11) { transform: translateX(100px) translateY(75px);}
+.fly-in-text.hidden li:nth-child(12) { transform: translateX(90px) translateY(-150px);}
+.fly-in-text.hidden li:nth-child(13) { transform: translateX(-20px) translateY(130px);}
+.fly-in-text.hidden li:nth-child(14) { transform: translateX(50px) translateY(-100px);} /** loop **/
+.fly-in-text.hidden li:nth-child(15) { transform: translateX(-60px) translateY(20px);}
+.fly-in-text.hidden li:nth-child(16) { transform: translateX(-200px) translateY(30px);}
+.fly-in-text.hidden li:nth-child(17) { transform: translateX(-160px) translateY(-160px);}
+.fly-in-text.hidden li:nth-child(18) { transform: translateX(125px) translateY(40px);}
+.fly-in-text.hidden li:nth-child(19) { transform: translateX(10px) translateY(-180px);}
+.fly-in-text.hidden li:nth-child(21) { transform: translateX(-10px) translateY(-180px);}
+.fly-in-text.hidden li:nth-child(22) { transform: translateX(-20px) translateY(-90px);}
+.fly-in-text.hidden li:nth-child(23) { transform: translateX(20px) translateY(130px);} /** overland **/
+.fly-in-text.hidden li:nth-child(24) { transform: translateX(50px) translateY(-130px);} 
+.fly-in-text.hidden li:nth-child(25) { transform: translateX(-80px) translateY(-80px);}
+.fly-in-text.hidden li:nth-child(26) { transform: translateX(140px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(27) { transform: translateX(-170px) translateY(-20px);}
+.fly-in-text.hidden li:nth-child(28) { transform: translateX(-150px) translateY(75px);} /** rally **/
+
